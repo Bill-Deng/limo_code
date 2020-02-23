@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/dlx/catkin_limo_workspace/src/viso2/include;/usr/include/png++;/usr/include;/usr/local/include;/usr/local/include/opencv")

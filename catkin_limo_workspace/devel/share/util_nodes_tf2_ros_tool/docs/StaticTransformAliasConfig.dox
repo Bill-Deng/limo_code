@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~verbosity" : \b [str] Sets the verbosity for this node min: , default: info, max: 
+- \b "~from_source_frame_id" : \b [str] tf2 frame id of the source frame from which to read min: , default: from/source, max: 
+- \b "~to_source_frame_id" : \b [str] tf2 frame id of the source frame to which we map min: , default: to/source, max: 
+- \b "~from_target_frame_id" : \b [str] tf2 frame id of the target frame from which to read min: , default: from/target, max: 
+- \b "~to_target_frame_id" : \b [str] tf2 frame id of the target frame to which we map min: , default: to/target, max: 
+- \b "~timeout" : \b [double] time in secondsd before failing min: 0.5, default: 10.0, max: 60.0
+

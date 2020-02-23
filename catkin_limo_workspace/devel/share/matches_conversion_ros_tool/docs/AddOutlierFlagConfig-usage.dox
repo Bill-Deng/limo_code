@@ -1,0 +1,14 @@
+\subsubsection usage Usage
+\verbatim
+<node name="add_outlier_flag" pkg="matches_conversion_ros_tool" type="add_outlier_flag">
+  <param name="verbosity" type="str" value="info" />
+  <param name="has_depth" type="bool" value="True" />
+  <param name="subscriber_depth_topic" type="str" value="in_topic_depth" />
+  <param name="subscriber_depth_queue_size" type="int" value="5" />
+  <param name="subscriber_topic" type="str" value="in_topic" />
+  <param name="subscriber_queue_size" type="int" value="5" />
+  <param name="publisher_topic" type="str" value="out_topic" />
+  <param name="publisher_queue_size" type="int" value="5" />
+</node>
+\endverbatim
+

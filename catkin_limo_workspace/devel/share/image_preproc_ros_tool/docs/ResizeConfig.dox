@@ -1,0 +1,13 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~verbosity" : \b [str] Sets the verbosity for this node min: , default: info, max: 
+- \b "~scale" : \b [double] Scale to apply when resizing image (must be 1 if new_width/height is set!) min: 1e-06, default: 1.0, max: 100.0
+- \b "~new_width" : \b [int] target width for resizing image (must be -1 if scale is set!) min: -2147483648, default: -1, max: 2147483647
+- \b "~new_height" : \b [int] Scale to apply when resizing image (must be -1 if scale is set!) min: -2147483648, default: -1, max: 2147483647
+- \b "~roi_x" : \b [int] x coordinate of ROI for cropping image(applied before rescale) min: -1, default: -1, max: 2147483647
+- \b "~roi_y" : \b [int] y coordinate of ROI for cropping image (applied before rescale) min: -1, default: -1, max: 2147483647
+- \b "~roi_width" : \b [int] x coordinate of ROI for cropping image (applied before rescale) min: -1, default: -1, max: 2147483647
+- \b "~roi_height" : \b [int] x coordinate of ROI for cropping image (applied before rescale) min: -1, default: -1, max: 2147483647
+

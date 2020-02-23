@@ -1,0 +1,15 @@
+\subsubsection usage Usage
+\verbatim
+<node name="semantic_labels" pkg="matches_conversion_ros_tool" type="semantic_labels">
+  <param name="verbosity" type="str" value="info" />
+  <param name="roi_width" type="int" value="5" />
+  <param name="roi_height" type="int" value="5" />
+  <param name="subscriber_matches_topic" type="str" value="in_topic_matches" />
+  <param name="subscriber_matches_queue_size" type="int" value="5" />
+  <param name="subscriber_labels_topic" type="str" value="in_topic_semantic_labels" />
+  <param name="subscriber_labels_queue_size" type="int" value="5" />
+  <param name="matches_publisher_topic" type="str" value="out_topic" />
+  <param name="matches_publisher_queue_size" type="int" value="5" />
+</node>
+\endverbatim
+

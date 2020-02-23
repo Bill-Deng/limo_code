@@ -1,0 +1,8 @@
+prefix=/home/dlx/catkin_limo_workspace/devel
+
+Name: matches_msg_ros
+Description: Description of matches_msg_ros
+Version: 0.0.0
+Cflags: -I/home/dlx/catkin_limo_workspace/devel/include -I/home/dlx/catkin_limo_workspace/src/feature_tracking/matches_msg_ros/include
+Libs: -L/home/dlx/catkin_limo_workspace/devel/lib 
+Requires: std_msgs roslib nodelet

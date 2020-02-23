@@ -1,0 +1,8 @@
+prefix=/home/dlx/catkin_limo_workspace/devel
+
+Name: rosinterface_handler
+Description: Description of rosinterface_handler
+Version: 0.2.1
+Cflags: -I/home/dlx/catkin_limo_workspace/devel/include -I/home/dlx/catkin_limo_workspace/src/rosinterface_handler/include
+Libs: -L/home/dlx/catkin_limo_workspace/devel/lib 
+Requires: catkin

@@ -1,0 +1,8 @@
+prefix=/home/dlx/catkin_limo_workspace/install
+
+Name: image_preproc_ros_tool
+Description: Description of image_preproc_ros_tool
+Version: 0.0.0
+Cflags: -I/home/dlx/catkin_limo_workspace/install/include
+Libs: -L/home/dlx/catkin_limo_workspace/install/lib 
+Requires: 

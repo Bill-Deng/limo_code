@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/dlx/catkin_limo_workspace/src/feature_tracking/matches_msg_ros
+# Build directory: /home/dlx/catkin_limo_workspace/build/feature_tracking/matches_msg_ros
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_matches_msg_ros_gtest_matches_msg_ros-test_matches_msg_ros-test "/home/dlx/catkin_limo_workspace/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/dlx/catkin_limo_workspace/build/test_results/matches_msg_ros/gtest-matches_msg_ros-test_matches_msg_ros-test.xml" "--working-dir" "/home/dlx/catkin_limo_workspace/src/feature_tracking/matches_msg_ros/test" "--return-code" "/home/dlx/catkin_limo_workspace/devel/lib/matches_msg_ros/matches_msg_ros-test_matches_msg_ros-test --gtest_output=xml:/home/dlx/catkin_limo_workspace/build/test_results/matches_msg_ros/gtest-matches_msg_ros-test_matches_msg_ros-test.xml")
+add_test(_ctest_matches_msg_ros_nosetests_test "/home/dlx/catkin_limo_workspace/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/dlx/catkin_limo_workspace/build/test_results/matches_msg_ros/nosetests-test.xml" "--return-code" "\"/usr/bin/cmake\" -E make_directory /home/dlx/catkin_limo_workspace/build/test_results/matches_msg_ros" "/usr/bin/nosetests-2.7 -P --process-timeout=60 --where=/home/dlx/catkin_limo_workspace/src/feature_tracking/matches_msg_ros/test --with-xunit --xunit-file=/home/dlx/catkin_limo_workspace/build/test_results/matches_msg_ros/nosetests-test.xml")

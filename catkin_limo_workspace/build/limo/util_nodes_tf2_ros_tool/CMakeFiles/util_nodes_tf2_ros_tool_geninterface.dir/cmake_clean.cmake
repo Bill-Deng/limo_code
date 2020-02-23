@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/util_nodes_tf2_ros_tool_geninterface"
+  "/home/dlx/catkin_limo_workspace/devel/include/util_nodes_tf2_ros_tool/StaticTransformAliasInterface.h"
+  "/home/dlx/catkin_limo_workspace/devel/share/util_nodes_tf2_ros_tool/cfg/StaticTransformAlias.cfg"
+  "/home/dlx/catkin_limo_workspace/devel/lib/python2.7/dist-packages/util_nodes_tf2_ros_tool/interface/StaticTransformAliasInterface.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/util_nodes_tf2_ros_tool_geninterface.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

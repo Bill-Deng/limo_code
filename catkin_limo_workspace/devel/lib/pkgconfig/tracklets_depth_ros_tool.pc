@@ -1,0 +1,8 @@
+prefix=/home/dlx/catkin_limo_workspace/devel
+
+Name: tracklets_depth_ros_tool
+Description: Description of tracklets_depth_ros_tool
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/dlx/catkin_limo_workspace/devel/lib 
+Requires: 

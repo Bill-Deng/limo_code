@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="disp2pointcloud" pkg="image_preproc_ros_tool" type="disp2pointcloud">
+  <param name="verbosity" type="str" value="info" />
+  <param name="invalid_value" type="int" value="-1" />
+  <param name="base_width" type="double" value="-1.0" />
+  <param name="focal_length" type="double" value="-1.0" />
+</node>
+\endverbatim
+

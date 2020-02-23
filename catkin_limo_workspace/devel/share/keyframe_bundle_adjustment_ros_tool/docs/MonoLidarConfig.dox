@@ -1,0 +1,44 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~verbosity" : \b [str] Sets the verbosity for this node min: , default: info, max: 
+- \b "~prior_vehicle_frame" : \b [str] frame id of vehicle from prior(used for tf), if empty, internal prior estimation is used. min: , default: , max: 
+- \b "~prior_global_frame" : \b [str] frame id of origin from prior(used for tf) min: , default: origin, max: 
+- \b "~tf_waiting_time" : \b [double] time in sec that lookup transform from tf wiats before throwing exception min: -std::numeric_limits<double>::infinity(), default: 10.0, max: std::numeric_limits<double>::infinity()
+- \b "~calib_target_frame_id" : \b [str] target frame id of calibration min: , default: camera, max: 
+- \b "~calib_source_frame_id" : \b [str] source frame id of calibration min: , default: vehicle, max: 
+- \b "~tf_parent_frame_id" : \b [str] parent frame id for tf publishing if empty nothing is published; format: tf2 convention (without / at beginning) min: , default: local_cs, max: 
+- \b "~tf_child_frame_id" : \b [str] child frame id for tf publishing if empty nothing is published; format: tf2 convention (without / at beginning) min: , default: , max: 
+- \b "~max_number_landmarks_near_bin" : \b [int] number of landmarks in near bin by observation delta angle min: 10, default: 300, max: 5000
+- \b "~max_number_landmarks_middle_bin" : \b [int] number of landmarks in middle bin chosen randomly min: 10, default: 300, max: 5000
+- \b "~max_number_landmarks_far_bin" : \b [int] number of landmarks in far bin by tracklength min: 10, default: 300, max: 5000
+- \b "~time_between_keyframes_sec" : \b [double] time in seconds between the keyframes min: 0.01, default: 0.1, max: 1.0
+- \b "~min_median_flow" : \b [double] minimum median flow so that frame is accepted as keyframe, especially important for standstill min: 0.0, default: 8.0, max: 200.0
+- \b "~critical_rotation_difference" : \b [double] if rotation between last frame and that is bigger keyframe is selected, important for curves min: 0.0, default: 0.08, max: 1.5
+- \b "~robust_loss_depth_thres" : \b [double] threshold in meters for robustifier(cauchy loss) for depth diff, from this threshold on measurements are considered as outlier min: 0.0001, default: 0.15, max: 5.0
+- \b "~robust_loss_reprojection_thres" : \b [double] threshold in pixels for robustifier(huber loss) for reprojection diff, from this threshold on measurements are considered as outlier min: 0.0001, default: 1.0, max: 10.0
+- \b "~min_number_connecting_landmarks" : \b [int] if number of tracklets that connect first to current frame is smaller than this, we set the end of the optimization window min: 5, default: 30, max: 500
+- \b "~max_size_optimization_window" : \b [int] maximum number of keyframes in optimization window. min: 3, default: 20, max: 500
+- \b "~shrubbery_weight" : \b [double] Weight assigned to landmarks with label that belongs to vegetation, sky, terrain, ... min: 0.0, default: 0.9, max: 1.0
+- \b "~outlier_rejection_quantile" : \b [double] we solve the problem n times with n num_iterations and reject the (1-quantile)*100% most downweighted residuals min: 0.01, default: 0.95, max: 1.0
+- \b "~outlier_rejection_num_iterations" : \b [int] we solve the problem n times with n num_iterations and reject the (1-quantile)*100% most downweighted residuals min: 0, default: 1, max: 10
+- \b "~height_over_ground" : \b [double] height over ground from vehicle coordinate system, value<-10. means no gp will be added to problem. min: -10.0001, default: 0.3, max: 10.0
+- \b "~prior_speed" : \b [double] Speed of vehicle in meter per second at beginning, when plane can not be estimated yet. Only used if not external prior given.   min: 0.001, default: 4.0, max: 30.0
+- \b "~show_debug_image" : \b [bool] if true show measurements on keyframes in debug image min: False, default: False, max: True
+- \b "~max_solver_time" : \b [double] maximum solver time in seconds, use that to make it real time min: 0.01, default: 0.2, max: 20.0
+- \b "~dump_path" : \b [str] path to dump file min: , default: , max: 
+- \b "~outlier_labels_yaml" : \b [str] path to file for outlier labels min: , default: ../res/outlier_labels.yaml, max: 
+- \b "~tracklets_subscriber_topic" : \b [str] Topic for tracklets with depth and outlier flags min: , default: in_topic_tracklets, max: 
+- \b "~tracklets_subscriber_queue_size" : \b [int] Queue size for tracklets with depth and outlier flags min: 0, default: 5, max: 2147483647
+- \b "~camera_info_subscriber_topic" : \b [str] Topic for camera info for intrinsics min: , default: in_topic_cam_info, max: 
+- \b "~camera_info_subscriber_queue_size" : \b [int] Queue size for camera info for intrinsics min: 0, default: 5, max: 2147483647
+- \b "~active_path_publisher_topic" : \b [str] Topic for publish path that is actively optimized in bundle adjustment for plotting min: , default: active_path_topic, max: 
+- \b "~active_path_publisher_queue_size" : \b [int] Queue size for publish path that is actively optimized in bundle adjustment for plotting min: 0, default: 5, max: 2147483647
+- \b "~path_publisher_topic" : \b [str] Topic for publish whole path for plotting min: , default: path_topic, max: 
+- \b "~path_publisher_queue_size" : \b [int] Queue size for publish whole path for plotting min: 0, default: 5, max: 2147483647
+- \b "~landmarks_publisher_topic" : \b [str] Topic for publish landmarks in global frame min: , default: landmarks_topic, max: 
+- \b "~landmarks_publisher_queue_size" : \b [int] Queue size for publish landmarks in global frame min: 0, default: 5, max: 2147483647
+- \b "~planes_publisher_topic" : \b [str] Topic for publish estiamted local planes in global frame min: , default: planes_topic, max: 
+- \b "~planes_publisher_queue_size" : \b [int] Queue size for publish estiamted local planes in global frame min: 0, default: 5, max: 2147483647
+

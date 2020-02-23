@@ -1,0 +1,18 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~verbosity" : \b [str] Sets the verbosity for this node min: , default: info, max: 
+- \b "~blur_size" : \b [int] mask size of blurring min: 1, default: 3, max: 21
+- \b "~blur_sigma" : \b [double] sigma of blurring min: 1e-05, default: 0.8, max: 10.0
+- \b "~nms_n" : \b [int] non-max-suppression: min. distance between maxima (in pixels) min: 1, default: 3, max: 15
+- \b "~nms_tau" : \b [int] non-max-suppression: interest point peakiness threshold min: 1, default: 50, max: 500
+- \b "~match_binsize" : \b [int] matching bin width/height (affects efficiency only) min: 1, default: 50, max: 1500
+- \b "~match_radius" : \b [int] matching radius (du/dv in pixels) min: 1, default: 200, max: 1500
+- \b "~match_disp_tolerance" : \b [int] dv tolerance for stereo matches (in pixels) min: 1, default: 2, max: 21
+- \b "~outlier_flow_tolerance" : \b [int] outlier removal: flow tolerance (in pixels) min: 1, default: 5, max: 50
+- \b "~outlier_disp_tolerance" : \b [int] outlier removal: disparity tolerance (in pixels) min: 1, default: 5, max: 50
+- \b "~multi_stage" : \b [int]  0=disabled,1=multistage matching (denser and faster) min: 0, default: 1, max: 1
+- \b "~half_resolution" : \b [int]  0=disabled,1=match at half resolution, refine at full resolution min: 0, default: 1, max: 1
+- \b "~max_tracklength" : \b [int] older detections of one feature than this age are discarded min: 1, default: 10, max: 100
+

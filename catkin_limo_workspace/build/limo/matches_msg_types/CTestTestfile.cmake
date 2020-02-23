@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/dlx/catkin_limo_workspace/src/limo/matches_msg_types
+# Build directory: /home/dlx/catkin_limo_workspace/build/limo/matches_msg_types
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_matches_msg_types_gtest_matches_msg_types-matches_msg_types-test "/home/dlx/catkin_limo_workspace/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/dlx/catkin_limo_workspace/build/test_results/matches_msg_types/gtest-matches_msg_types-matches_msg_types-test.xml" "--working-dir" "/home/dlx/catkin_limo_workspace/src/limo/matches_msg_types/test" "--return-code" "/home/dlx/catkin_limo_workspace/devel/lib/matches_msg_types/matches_msg_types-matches_msg_types-test --gtest_output=xml:/home/dlx/catkin_limo_workspace/build/test_results/matches_msg_types/gtest-matches_msg_types-matches_msg_types-test.xml")
+add_test(_ctest_matches_msg_types_nosetests_test "/home/dlx/catkin_limo_workspace/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/dlx/catkin_limo_workspace/build/test_results/matches_msg_types/nosetests-test.xml" "--return-code" "\"/usr/bin/cmake\" -E make_directory /home/dlx/catkin_limo_workspace/build/test_results/matches_msg_types" "/usr/bin/nosetests-2.7 -P --process-timeout=60 --where=/home/dlx/catkin_limo_workspace/src/limo/matches_msg_types/test --with-xunit --xunit-file=/home/dlx/catkin_limo_workspace/build/test_results/matches_msg_types/nosetests-test.xml")

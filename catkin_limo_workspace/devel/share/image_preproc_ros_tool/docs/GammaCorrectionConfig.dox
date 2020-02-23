@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~gamma" : \b [double] gamma min: 0.0, default: 1.0, max: 10.0
+- \b "~auto_gamma" : \b [bool] automatic gamma computation min: False, default: False, max: True
+

@@ -1,0 +1,35 @@
+\subsubsection usage Usage
+\verbatim
+<node name="mono_standalone" pkg="keyframe_bundle_adjustment_ros_tool" type="mono_standalone">
+  <param name="verbosity" type="str" value="info" />
+  <param name="calib_target_frame_id" type="str" value="camera" />
+  <param name="calib_source_frame_id" type="str" value="vehicle" />
+  <param name="tf_parent_frame_id" type="str" value="local_cs" />
+  <param name="tf_child_frame_id" type="str" value="" />
+  <param name="max_number_landmarks_near_bin" type="int" value="300" />
+  <param name="max_number_landmarks_middle_bin" type="int" value="300" />
+  <param name="max_number_landmarks_far_bin" type="int" value="300" />
+  <param name="time_between_keyframes_sec" type="double" value="0.1" />
+  <param name="min_median_flow" type="double" value="8.0" />
+  <param name="critical_rotation_difference" type="double" value="0.08" />
+  <param name="robust_loss_reprojection_thres" type="double" value="1.0" />
+  <param name="min_number_connecting_landmarks" type="int" value="30" />
+  <param name="shrubbery_weight" type="double" value="0.9" />
+  <param name="outlier_rejection_quantile" type="double" value="0.95" />
+  <param name="outlier_rejection_num_iterations" type="int" value="1" />
+  <param name="height_over_ground" type="double" value="0.3" />
+  <param name="show_debug_image" type="bool" value="False" />
+  <param name="motion_prior_ransac_probability" type="double" value="0.99" />
+  <param name="max_solver_time" type="double" value="0.2" />
+  <param name="outlier_labels_yaml" type="str" value="../res/outlier_labels.yaml" />
+  <param name="active_path_publisher_topic" type="str" value="active_path_topic" />
+  <param name="active_path_publisher_queue_size" type="int" value="5" />
+  <param name="path_publisher_topic" type="str" value="path_topic" />
+  <param name="path_publisher_queue_size" type="int" value="5" />
+  <param name="landmarks_publisher_topic" type="str" value="landmarks_topic" />
+  <param name="landmarks_publisher_queue_size" type="int" value="5" />
+  <param name="planes_publisher_topic" type="str" value="planes_topic" />
+  <param name="planes_publisher_queue_size" type="int" value="5" />
+</node>
+\endverbatim
+

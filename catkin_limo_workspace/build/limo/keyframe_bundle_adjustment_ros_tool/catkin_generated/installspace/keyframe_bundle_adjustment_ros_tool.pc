@@ -1,0 +1,8 @@
+prefix=/home/dlx/catkin_limo_workspace/install
+
+Name: keyframe_bundle_adjustment_ros_tool
+Description: Description of keyframe_bundle_adjustment_ros_tool
+Version: 0.0.0
+Cflags: -I/home/dlx/catkin_limo_workspace/install/include
+Libs: -L/home/dlx/catkin_limo_workspace/install/lib 
+Requires: 

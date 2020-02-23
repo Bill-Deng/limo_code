@@ -1,0 +1,8 @@
+prefix=/home/dlx/catkin_limo_workspace/devel
+
+Name: demo_keyframe_bundle_adjustment_meta
+Description: Description of demo_keyframe_bundle_adjustment_meta
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/dlx/catkin_limo_workspace/devel/lib 
+Requires: 

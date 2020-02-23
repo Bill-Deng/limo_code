@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="static_transform_alias" pkg="util_nodes_tf2_ros_tool" type="static_transform_alias">
+  <param name="verbosity" type="str" value="info" />
+  <param name="from_source_frame_id" type="str" value="from/source" />
+  <param name="to_source_frame_id" type="str" value="to/source" />
+  <param name="from_target_frame_id" type="str" value="from/target" />
+  <param name="to_target_frame_id" type="str" value="to/target" />
+  <param name="timeout" type="double" value="10.0" />
+</node>
+\endverbatim
+

@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="label_dilation" pkg="image_preproc_ros_tool" type="label_dilation">
+  <param name="verbosity" type="str" value="info" />
+  <param name="erode" type="bool" value="False" />
+  <param name="half_kernel_size" type="int" value="3" />
+  <param name="subscriber_topic" type="str" value="in_topic" />
+  <param name="subscriber_queue_size" type="int" value="5" />
+  <param name="publisher_topic" type="str" value="out_topic" />
+  <param name="publisher_queue_size" type="int" value="5" />
+</node>
+\endverbatim
+

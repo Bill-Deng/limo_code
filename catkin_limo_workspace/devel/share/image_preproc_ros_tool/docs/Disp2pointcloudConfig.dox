@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~verbosity" : \b [str] Sets the verbosity for this node min: , default: info, max: 
+- \b "~invalid_value" : \b [int] Value in image to be seen as invalid (negative means inactive) min: -1, default: -1, max: 255
+- \b "~base_width" : \b [double] Overwrite base_width min: -std::numeric_limits<double>::infinity(), default: -1.0, max: std::numeric_limits<double>::infinity()
+- \b "~focal_length" : \b [double] Overwrite focal length min: -std::numeric_limits<double>::infinity(), default: -1.0, max: std::numeric_limits<double>::infinity()
+

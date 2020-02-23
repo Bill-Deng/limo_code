@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="image_preproc_ros_tool" pkg="image_preproc_ros_tool" type="image_preproc_ros_tool">
+  <param name="gamma" type="double" value="1.0" />
+  <param name="auto_gamma" type="bool" value="False" />
+</node>
+\endverbatim
+

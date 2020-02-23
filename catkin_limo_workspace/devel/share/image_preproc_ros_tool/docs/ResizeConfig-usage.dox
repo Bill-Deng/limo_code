@@ -1,0 +1,14 @@
+\subsubsection usage Usage
+\verbatim
+<node name="resize" pkg="image_preproc_ros_tool" type="resize">
+  <param name="verbosity" type="str" value="info" />
+  <param name="scale" type="double" value="1.0" />
+  <param name="new_width" type="int" value="-1" />
+  <param name="new_height" type="int" value="-1" />
+  <param name="roi_x" type="int" value="-1" />
+  <param name="roi_y" type="int" value="-1" />
+  <param name="roi_width" type="int" value="-1" />
+  <param name="roi_height" type="int" value="-1" />
+</node>
+\endverbatim
+

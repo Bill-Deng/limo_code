@@ -1,0 +1,12 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~verbosity" : \b [str] Sets the verbosity for this node min: , default: info, max: 
+- \b "~erode" : \b [bool] if true do erosion, toherwise dilation min: False, default: False, max: True
+- \b "~half_kernel_size" : \b [int] 0.5* kernel sioze of the filter min: 0, default: 3, max: 20
+- \b "~subscriber_topic" : \b [str] Topic for subscriber min: , default: in_topic, max: 
+- \b "~subscriber_queue_size" : \b [int] Queue size for subscriber min: 0, default: 5, max: 2147483647
+- \b "~publisher_topic" : \b [str] Topic for publisher min: , default: out_topic, max: 
+- \b "~publisher_queue_size" : \b [int] Queue size for publisher min: 0, default: 5, max: 2147483647
+

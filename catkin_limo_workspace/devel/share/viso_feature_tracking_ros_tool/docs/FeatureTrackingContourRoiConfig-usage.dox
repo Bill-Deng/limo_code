@@ -1,0 +1,19 @@
+\subsubsection usage Usage
+\verbatim
+<node name="feature_tracking_contour_roi" pkg="viso_feature_tracking_ros_tool" type="feature_tracking_contour_roi">
+  <param name="verbosity" type="str" value="info" />
+  <param name="blur_size" type="int" value="3" />
+  <param name="blur_sigma" type="double" value="0.8" />
+  <param name="nms_n" type="int" value="3" />
+  <param name="nms_tau" type="int" value="50" />
+  <param name="match_binsize" type="int" value="50" />
+  <param name="match_radius" type="int" value="200" />
+  <param name="match_disp_tolerance" type="int" value="2" />
+  <param name="outlier_flow_tolerance" type="int" value="5" />
+  <param name="outlier_disp_tolerance" type="int" value="5" />
+  <param name="multi_stage" type="int" value="1" />
+  <param name="half_resolution" type="int" value="1" />
+  <param name="max_tracklength" type="int" value="10" />
+</node>
+\endverbatim
+

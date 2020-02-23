@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/dlx/catkin_limo_workspace/src/limo/robust_optimization
+# Build directory: /home/dlx/catkin_limo_workspace/build/limo/robust_optimization
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_robust_optimization_gtest_robust_optimization-robust_optimization-test "/home/dlx/catkin_limo_workspace/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/dlx/catkin_limo_workspace/build/test_results/robust_optimization/gtest-robust_optimization-robust_optimization-test.xml" "--working-dir" "/home/dlx/catkin_limo_workspace/src/limo/robust_optimization/test" "--return-code" "/home/dlx/catkin_limo_workspace/devel/lib/robust_optimization/robust_optimization-robust_optimization-test --gtest_output=xml:/home/dlx/catkin_limo_workspace/build/test_results/robust_optimization/gtest-robust_optimization-robust_optimization-test.xml")
+add_test(_ctest_robust_optimization_nosetests_test "/home/dlx/catkin_limo_workspace/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/dlx/catkin_limo_workspace/build/test_results/robust_optimization/nosetests-test.xml" "--return-code" "\"/usr/bin/cmake\" -E make_directory /home/dlx/catkin_limo_workspace/build/test_results/robust_optimization" "/usr/bin/nosetests-2.7 -P --process-timeout=60 --where=/home/dlx/catkin_limo_workspace/src/limo/robust_optimization/test --with-xunit --xunit-file=/home/dlx/catkin_limo_workspace/build/test_results/robust_optimization/nosetests-test.xml")

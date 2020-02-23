@@ -1,0 +1,8 @@
+prefix=/home/dlx/catkin_limo_workspace/install
+
+Name: mrt_cmake_modules
+Description: Description of mrt_cmake_modules
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/dlx/catkin_limo_workspace/install/lib 
+Requires: 

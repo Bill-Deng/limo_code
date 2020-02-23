@@ -1,0 +1,14 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~verbosity" : \b [str] Sets the verbosity for this node min: , default: info, max: 
+- \b "~roi_width" : \b [int] width of roi to count labels min: 0, default: 5, max: 50
+- \b "~roi_height" : \b [int] height of roi to count labels min: 0, default: 5, max: 50
+- \b "~subscriber_matches_topic" : \b [str] Topic for subscriber with matches to assign label min: , default: in_topic_matches, max: 
+- \b "~subscriber_matches_queue_size" : \b [int] Queue size for subscriber with matches to assign label min: 0, default: 5, max: 2147483647
+- \b "~subscriber_labels_topic" : \b [str] Topic for subscriber with matches to assign label min: , default: in_topic_semantic_labels, max: 
+- \b "~subscriber_labels_queue_size" : \b [int] Queue size for subscriber with matches to assign label min: 0, default: 5, max: 2147483647
+- \b "~matches_publisher_topic" : \b [str] Topic for publisher with matches to assign label min: , default: out_topic, max: 
+- \b "~matches_publisher_queue_size" : \b [int] Queue size for publisher with matches to assign label min: 0, default: 5, max: 2147483647
+
